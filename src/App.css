@@ -51,3 +51,16 @@ button:hover {
   color: white;
   background-color: black;
 }
+
+@media only screen and (max-width: 600px) {
+ 
+  .App {
+    width: 90%;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .App {
+    width: 75%;
+  }
+}
