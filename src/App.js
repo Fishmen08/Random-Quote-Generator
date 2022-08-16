@@ -26,7 +26,7 @@ function App() {
       <div id='text'><p><i class="fa-solid fa-quote-left"></i> {quote.content}</p></div>
       <div id='author'><p>- {quote.author}</p></div>
       <div className='box'>
-      <div ><a id='tweet-quote' href='twitter.com/intent/tweet'><i class="fa-brands fa-twitter-square"></i></a></div>
+      <div ><a id='tweet-quote' href='https://twitter.com/intent/tweet'><i class="fa-brands fa-twitter-square"></i></a></div>
       <div id='new-quote'><button onClick={updateQuote}>New Quote</button></div>
       
       </div>
